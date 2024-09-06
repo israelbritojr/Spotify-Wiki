@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<!-- Define o tipo do documento como HTML5. -->
+
+<html lang="pt-br"> 
+<!-- Define a linguagem da página como português do Brasil. -->
+
+<head>
+    <meta charset="UTF-8"> 
+    <!-- Define o conjunto de caracteres utilizado na página como UTF-8 (compatível com a maioria dos caracteres). -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Define a largura da página para ser ajustável à largura do dispositivo, importante para design responsivo. -->
+
+    <link rel="stylesheet" href="styles.css"> 
+    <!-- Inclui uma folha de estilos externa chamada "styles.css" para estilizar a página. -->
+
+    <title>Imersão Alura</title> 
+    <!-- Define o título da página que aparece na aba do navegador. -->
+</head>
+
+<body> 
+<!-- Início do corpo da página, que contém o conteúdo visível para o usuário. -->
+
+    <header> 
+     <!-- Início do cabeçalho da página, geralmente usado para títulos, logotipos, ou navegação. -->
+         <h1>Spotify Wiki</h1> 
+         <!-- Um título de nível 1 exibido como o principal da página. -->
+
+         <img src="img/logo.jpg"> 
+         <!-- Uma imagem (logotipo) localizada no diretório "img", com o nome de arquivo "logo.jpg". -->
+     </header>
+
+     <main> 
+     <!-- Início da seção principal do conteúdo da página. -->
+
+         <section> 
+         <!-- Seção dentro do "main", provavelmente para a barra de pesquisa. -->
+
+            <input type="text" id="campo-pesquisa" placeholder="Digite seu som ou gênero favorito dos anos 2000!"> 
+            <!-- Um campo de entrada de texto, com um espaço reservado que aparece no campo até o usuário digitar algo. -->
+
+            <button onclick="pesquisar()">Pesquisar</button> 
+            <!-- Um botão que executa a função JavaScript "pesquisar()" quando clicado. -->
+         </section>
+
+         <section class="resultados-pesquisa" id="resultados-pesquisa"> 
+         <!-- Seção destinada a exibir os resultados da pesquisa, identificada por uma classe e um ID. -->
+         </section>
+
+     </main>
+
+     <footer> 
+     <!-- Início do rodapé da página, geralmente contém informações legais ou de direitos autorais. -->
+         <p>2024 - Spotify Wiki by DevBritoJr.&trade; - Todos os direitos reservados. &copy;</p> 
+         <!-- Um parágrafo contendo informações de direitos autorais, usando os símbolos de marca registrada (™) e copyright (©). -->
+     </footer>
+
+     <script src="dados.js"></script> 
+     <!-- Inclui um arquivo JavaScript externo chamado "dados.js", provavelmente para fornecer dados ou funções de backend. -->
+
+     <script src="app.js"></script> 
+     <!-- Inclui um arquivo JavaScript externo chamado "app.js", responsável pela lógica de front-end da página, como a função "pesquisar()". -->
+</body>
+</html>

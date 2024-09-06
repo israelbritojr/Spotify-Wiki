@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Importa a fonte 'Press Start 2P' do Google Fonts. */
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Press Start 2P", system-ui; /* Define a fonte principal como "Press Start 2P" com fallback para "system-ui". */
+    font-weight: 400; /* Define o peso da fonte como normal. */
+    font-style: normal; /* Define o estilo da fonte como normal. */
+    background-color: #1ed760; /* Define a cor de fundo como verde (#1ed760). */
+    display: flex; /* Aplica o layout Flexbox. */
+    flex-direction: column; /* Alinha os itens em uma coluna (verticalmente). */
+    align-items: center; /* Centraliza os itens horizontalmente. */
+    justify-content: center; /* Centraliza os itens verticalmente. */
+    height: 100vh; /* Define a altura da página para preencher toda a viewport (100% da altura). */
+    margin: 0; /* Remove margens padrão. */
+    padding: 0; /* Remove o espaçamento interno padrão (padding). */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2rem; /* Define o tamanho da fonte para 2rem. */
+    color:  #1ed760; /* Define a cor do texto como verde. */
+    background-color: #000000; /* Define o fundo do título como preto. */
+    padding: 1rem; /* Adiciona espaçamento interno de 1rem ao redor do texto. */
+    border-radius: 2rem; /* Arredonda os cantos do fundo do título. */
+    text-align: center; /* Alinha o texto ao centro. */
+    letter-spacing: 0.4rem; /* Aumenta o espaçamento entre as letras. */
+}
+
+/* Estiliza a imagem dentro do header */
+header img {
+    margin-left: 5rem; /* Adiciona margem à esquerda da imagem. */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Aplica o layout Flexbox nas seções. */
+    flex-direction: column; /* Organiza os itens das seções em colunas (verticalmente). */
+    align-items: center; /* Centraliza os itens dentro da seção horizontalmente. */
+    margin-bottom: 3rem; /* Adiciona um espaçamento abaixo de cada seção. */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Define a largura dos campos de entrada. */
+    border: none; /* Remove a borda padrão dos inputs. */
+    padding: 1rem; /* Adiciona espaçamento interno de 1rem. */
+    border-radius: 1.5rem; /* Arredonda as bordas dos inputs. */
+    margin-bottom: 1rem; /* Adiciona um espaçamento abaixo dos inputs. */
+    color: #7c7c7c; /* Define a cor do texto como cinza. */
+    font-size: 0.57rem; /* Define o tamanho da fonte para 0.57rem. */
+    font-family: "Press Start 2P", system-ui; /* Define a fonte dos inputs como "Press Start 2P". */
+    font-weight: 400; /* Define o peso da fonte como normal. */
+    font-style: normal; /* Define o estilo da fonte como normal. */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total do elemento. */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Define o espaçamento interno do botão. */
+    border: none; /* Remove a borda do botão. */
+    border-radius: 1.5rem; /* Arredonda as bordas do botão. */
+    background-color: #09ff00; /* Define a cor de fundo do botão como verde claro. */
+    color: #000000; /* Define a cor do texto do botão como preto. */
+    font-size: 0.8rem; /* Define o tamanho da fonte para 0.8rem. */
+    font-family: "Press Start 2P", system-ui; /* Define a fonte do botão como "Press Start 2P". */
+    font-weight: 400; /* Define o peso da fonte como normal. */
+    font-style: normal; /* Define o estilo da fonte como normal. */
+    cursor: pointer; /* Define o cursor como "pointer" ao passar o mouse sobre o botão. */
+    font-weight: bolder; /* Define a fonte do botão como negrito. */
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #ffffff; /* Muda a cor de fundo para branco ao passar o mouse. */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa ao botão. */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    max-width: 80%; /* Define a largura máxima da caixa como 80% da viewport. */
+    height: 32vh; /* Define a altura da caixa como 32% da viewport. */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical se o conteúdo ultrapassar a altura definida. */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente. */
+    padding: 2rem; /* Adiciona espaçamento interno de 2rem. */
+    border-radius: 0.6rem; /* Arredonda as bordas da caixa. */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Define a cor de fundo dos itens como branco. */
+    border-radius: 0.6rem; /* Arredonda as bordas dos itens. */
+    padding: 1.5rem; /* Adiciona espaçamento interno de 1.5rem. */
+    margin-bottom: 2rem; /* Adiciona espaçamento abaixo de cada item. */
+    display: flex; /* Aplica layout flex nos itens. */
+    flex-direction: column; /* Organiza os elementos dos itens verticalmente. */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra aos itens. */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.2rem; /* Define o tamanho da fonte dos títulos dentro dos resultados. */
+    color: #222831; /* Define a cor dos títulos como preto acinzentado. */
+}
+
+/* Estiliza o parágrafo dentro dos itens de resultado */
+.item-resultado p {
+    line-height: 1.5; /* Define o espaçamento entre linhas. */
+}
+
+/* Estiliza os links e elementos de áudio dentro dos itens de resultado */
+#musicaeletra {
+    display: flex; /* Aplica o layout flex no container de links e áudio. */
+    justify-content: space-between; /* Distribui igualmente os elementos. */
+    align-items: center; /* Alinha os itens no centro verticalmente. */
+    height: 10vh; /* Define a altura do container. */
+    font-size: 0.9rem; /* Define o tamanho da fonte. */
+}
+
+/* Estiliza a margem dos links e do áudio */
+#musicaeletra audio,
+#musicaeletra a {
+  margin-left: 10rem; /* Adiciona margem à esquerda. */
+  margin-right: 10rem; /* Adiciona margem à direita. */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links. */
+    color: #30475E; /* Define a cor do link. */
+}
+
+/* Adiciona efeito hover aos links */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links. */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Define a cor do texto como cinza escuro. */
+    margin: 0.5rem 0; /* Adiciona espaçamento acima e abaixo do texto. */
+    font-size: 0.8rem; /* Define o tamanho da fonte. */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    color: #000000; /* Define a cor do texto do rodapé como preto. */
+    text-align: center; /* Centraliza o texto no rodapé. */
+    padding: 0; /* Remove o espaçamento interno. */
+    width: 100%; /* Define a largura total do rodapé. */
+    position: absolute; /* Posiciona o rodapé de forma absoluta. */
+    bottom: 0; /* Alinha o rodapé ao fundo da página. */
+    font-size: 0.8rem; /* Define o tamanho da fonte do rodapé. */
+}
+
+/* Estilizações para telas menores (máximo de 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.4rem; /* Diminui o tamanho da fonte do título em telas menores. */
+        letter-spacing: 0.2rem; /* Diminui o espaçamento entre letras. */
+    }
+
+    section input {
+        width: 25rem; /* Reduz a largura dos inputs em telas menores. */
+        padding: 0.8rem; /* Diminui o espaçamento interno dos inputs. */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Define a largura da caixa de resultados em telas menores. */
+        height: 40vh; /* Define a altura da caixa de resultados em telas menores. */
+    }
+
+    .item-resultado h2 {
+        font-size: 0.9rem; /* Diminui o tamanho da fonte dos títulos dentro dos itens de resultado. */
+    }
+
+    body {
+        background-size: contain; /* Ajusta a imagem de fundo para caber na tela menor. */
+    }
+}
+
+/* Estilizações para celulares (máximo de 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem; /* Diminui ainda mais o tamanho da fonte do título. */
+        letter-spacing: 0.1rem; /* Diminui ainda mais o espaçamento entre letras. */
+    }
+
+    section input {
+        width: 17rem; /* Reduz ainda mais a largura dos inputs em telas pequenas. */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Reduz o espaçamento interno do botão em telas pequenas. */
+        font-size: 0.9rem; /* Aumenta ligeiramente o tamanho da fonte do botão. */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Aumenta a largura da caixa de resultados em telas pequenas. */
+        height: 50vh; /* Aumenta a altura da caixa de resultados em telas pequenas. */
+    }
+
+    .item-resultado h2 {
+        font-size: 0.8rem; /* Diminui o tamanho da fonte dos títulos dentro dos itens de resultado. */
+    }
+
+    footer {
+        font-size: 0.4rem; /* Reduz o tamanho da fonte do rodapé. */
+    }
+
+    body {
+        background-size: contain; /* Ajusta a imagem de fundo para caber na tela menor. */
+    }
+}
