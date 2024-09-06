@@ -3,7 +3,7 @@ let dados = [
         titulo: "Legião Urbana",
         descricao: 'A Legião Urbana foi uma das bandas de rock mais importantes do Brasil, marcando gerações com suas letras engajadas e melodias marcantes. "Tempo Perdido" é uma de suas músicas mais conhecidas, uma crítica social que reflete sobre a passagem do tempo e a busca por sentido na vida. Com sua letra poética e melodia envolvente, a canção se tornou um hino para muitos jovens e continua sendo muito ouvida até hoje.',
         nomeMusica: "Tempo Perdido",
-        srcMusica:"/song/legiaourbana.mp3",
+        srcMusica:"/song/legiaourbana.MP3",
         linkLetra: "https://www.vagalume.com.br/legiao-urbana/tempo-perdido.html"
     },
     {
