@@ -31,8 +31,8 @@ I am a 19-year-old Brazilian developer and a student of Systems Analysis and Dev
 
 ### Let's connect and build something great together!
 
-[![Linkedin Badge](httpsimg.shields.iobadge-LinkedIn-bluestyle=flat-square&logo=Linkedin&logoColor=white&link=httpswww.linkedin.cominisrael-brito-jr)](httpswww.linkedin.cominisrael-brito-jr)
-[![Github Badge](httpsimg.shields.iobadge-Github-000style=flat-square&logo=Github&logoColor=white&link=httpsgithub.comisraelbritojr)](httpsgithub.comisraelbritojr)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/israel-brito-jr)](https://www.linkedin.com/in/israel-brito-jr)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/israelbritojr)](https://github.com/israelbritojr)
 
 #### Thanks for visiting. Enjoy it!! o
 ---
@@ -66,7 +66,7 @@ Sou um desenvolvedor brasileiro de 19 anos e estudante de Análise e Desenvolvim
 
 ### Vamos nos conectar e construir algo incrível juntos!
 
-[![Linkedin Badge](httpsimg.shields.iobadge-LinkedIn-bluestyle=flat-square&logo=Linkedin&logoColor=white&link=httpswww.linkedin.cominisrael-brito-jr)](httpswww.linkedin.cominisrael-brito-jr)
-[![Github Badge](httpsimg.shields.iobadge-Github-000style=flat-square&logo=Github&logoColor=white&link=httpsgithub.comisraelbritojr)](httpsgithub.comisraelbritojr)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/israel-brito-jr)](https://www.linkedin.com/in/israel-brito-jr)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/israelbritojr)](https://github.com/israelbritojr)
 
 #### Obrigado pela visita. Divirta-se!! 
